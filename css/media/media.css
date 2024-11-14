@@ -1,0 +1,286 @@
+/* LG */
+@media only screen and (max-width: 991px) {
+  .main-intro h2{
+    margin-left: 10%;
+    padding-top: 45%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .btn{
+      margin-top: 12px;
+      margin-left: 10%;
+      font-size: 18px;
+    }
+  
+  .about {
+    width: 125%;
+    height: auto;
+    margin-left: 270px;
+  }
+  .hire{
+    width: 98%;
+  }
+  .what {
+    width: 125%;
+    height: auto;
+    margin-left: 270px;
+    margin-top: 50px;
+  }
+
+} 
+
+
+/* MD */
+@media only screen and (max-width: 767px) {
+    
+    .nav-link{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .name h4{
+        color:rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .name h5{
+        color: rgb(253, 253, 253);
+        font-size: 26px;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+    .navbar-brand img{
+        width: 100px;
+        height: 110px;
+        margin-left: 35px;
+        border-radius: 50%;
+    }
+    .nav-link{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(255, 247, 105);
+        margin-left: 40px;
+        
+    }
+    .intro{
+      background-position: 20%;
+      width: 156%;
+      height: 695px;
+      margin-left: 270px;
+  }
+    .main-intro h2{
+      margin-left: 12%;
+      padding-top: 45%;
+      color: rgb(255, 255, 255);
+      font-size: 35px;
+      font-weight: bold;
+    }
+    .btn{
+      margin-top: 12px;
+      margin-left: 12%;
+      font-size: 18px;
+    }
+    .about {
+      width: 125%;
+      height: auto;
+      margin-left: 400px;
+    }
+  
+    .about-content p {
+      margin-left: 1%;
+      font-size: 25px;
+    }
+    .about-content h4{
+      margin-left: 1%;
+    }
+    .row {
+      margin-left: 0;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .col-3 {
+      margin-top: 20px;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .hire{
+      width: 96%;
+    }
+    .hire-item h3 {
+      text-align: center;
+      font-size: 30px;
+    }
+    .hire-btn {
+      margin-top: 20px;
+      font-size: 35px;
+      margin-left: 40%;
+    }
+    .what {
+        width: 125%;
+        height: auto;
+        margin-left: 395px;
+        margin-top: 50px;
+      }
+    .card-text{
+        font-weight: 500;
+    }
+    .what-i p, .what-i h4 {
+        margin-left: 1%;
+        margin-top: 5%;
+        font-size: 30px;
+      }
+    .card {
+        margin-bottom: 30px;
+        border-radius: 10px;
+      } 
+    .col-4 {
+        flex: 100%;
+        max-width: 100%;
+      }
+    h4{
+        font-size: 26px;
+        margin-left: 6%;
+    }
+    .p-fs, .p-cs {
+        margin-top: 10px;
+      }
+      .row {
+        flex-wrap: wrap;
+      }
+    .col-6 {
+        flex: 100%;
+        max-width: 100%;
+      }
+    .skill li {
+        margin-left: -3%;
+        margin-top: 10px;
+      }
+    ul {
+        margin-bottom: 20px;
+      }
+    
+    .progress {
+        width: 100%;
+      }
+    
+    .progress-bar {
+        width: 90%;
+      }
+    .education p{
+        margin-left: 2%;
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .progress-bar{
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .education h4{
+        margin-left: 2%;
+    }
+    .accordion-button{
+      font-size: 25px;
+    }
+    .work {
+        margin-top: 50px;
+        margin-right: 22px;
+      }
+    .work-section,h4{
+        margin-left: 2%;
+        font-size: 30px;
+      }
+    .work p {
+        font-size: 25px;
+        margin-left: 2%;
+      }
+    .hover-effect img {
+        height: 300px;
+        width: 100px;
+      }
+    .contact{
+        margin-top: 8%;
+    }
+    .contact p{
+        margin-left: 2%;
+        font-size: 20px;
+    }
+    .contact,h4{
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    .contact-info li{
+        margin-left: 2%;
+    }
+    .contact-info i{
+        font-size: 40px;
+    }
+    .contact-info,h5{
+        font-size: 30px;
+    }
+    .form-control{
+        font-size: 10px;
+        font-weight: bold;
+    }
+   
+    }
+    
+
+
+/* SM */
+@media (max-width:575px){ 
+  .nav-link{
+    font-size: 30px;
+    font-weight: bold;
+}
+  .intro{
+    width: 1000px;
+    height: 695px;
+    margin: auto;
+}
+  .main-intro h2{
+    margin-left: 10%;
+    padding-top: 40%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+}
+.btn{
+    margin-top: 12px;
+    margin-left: 10%;
+    font-size: 18px;
+}
+  .nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 125, 105, 0.981);
+}
+.stats-img {
+    flex-wrap: wrap;
+        
+}
+.sticky-bg-stats{
+    width: 92%;
+    margin-left: 14px;
+        
+}
+.stats-img li {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.skill li {
+    margin-left: -6%;
+    margin-top: 10px;
+}
+ul{
+  margin-bottom: 20px;
+}
+.progress {
+  width: 100%;
+}
+.progress-bar {
+        width: 90%;
+  }
+}
