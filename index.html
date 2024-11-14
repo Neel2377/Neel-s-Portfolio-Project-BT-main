@@ -166,15 +166,15 @@
     <section class="sticky-bg-stats" data-aos="zoom-in-up">
       <ul class="stats-img text-white d-flex flex-row list-unstyled justify-content-evenly text-center" data-aos="zoom-in-up">
         <li>
-          <h3>3</h3>
+          <h3 class="counter" data-speed="10000">50</h3>
           <p>CUPS OF COFFEE</p>
         </li>
         <li>
-          <h3>8</h3>
+          <h3 class="counter" data-speed="10000">70</h3>
           <p>PROJECTS</p>
         </li>
         <li>
-          <h3>1</h3>
+          <h3 class="counter" data-speed="10000">100</h3>
           <p>CLIENT</p>
         </li>
       </ul>
@@ -390,6 +390,35 @@
   </section>
 
   </section>
+
+  <script> 
+    (() => {
+    const counter = document.querySelectorAll('.counter');
+    // covert to array
+    const array = Array.from(counter);
+    // select array element
+    array.map((item) => {
+        // data layer
+        let counterInnerText = item.textContent;
+
+        let count = 1;
+        let speed = item.dataset.speed / counterInnerText
+        function counterUp() {
+            item.textContent = count++
+            if (counterInnerText < count) {
+                clearInterval(stop);
+            }
+        }
+        const stop = setInterval(() => {
+            counterUp();
+        }, speed);
+    })
+})()
+
+
+
+ 
+  </script>
   
     <!-- BOOTSTRAP SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
